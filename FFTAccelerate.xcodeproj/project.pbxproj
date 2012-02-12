@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2814EC114E8169300AFCFFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC014E8169300AFCFFF /* UIKit.framework */; };
+		E2814EC314E8169300AFCFFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC214E8169300AFCFFF /* Foundation.framework */; };
+		E2814EC514E8169300AFCFFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC414E8169300AFCFFF /* CoreGraphics.framework */; };
+		E2814ECB14E8169300AFCFFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2814EC914E8169300AFCFFF /* InfoPlist.strings */; };
+		E2814ECD14E8169300AFCFFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2814ECC14E8169300AFCFFF /* main.m */; };
+		E2814ED114E8169300AFCFFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2814ED014E8169300AFCFFF /* AppDelegate.m */; };
+		E2814ED414E8169300AFCFFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2814ED314E8169300AFCFFF /* ViewController.m */; };
+		E2814ED714E8169300AFCFFF /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2814ED514E8169300AFCFFF /* ViewController_iPhone.xib */; };
+		E2814EDA14E8169300AFCFFF /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2814ED814E8169300AFCFFF /* ViewController_iPad.xib */; };
+		E2814EE214E8169300AFCFFF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EE114E8169300AFCFFF /* SenTestingKit.framework */; };
+		E2814EE314E8169300AFCFFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC014E8169300AFCFFF /* UIKit.framework */; };
+		E2814EE414E8169300AFCFFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC214E8169300AFCFFF /* Foundation.framework */; };
+		E2814EEC14E8169300AFCFFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2814EEA14E8169300AFCFFF /* InfoPlist.strings */; };
+		E2814EEF14E8169300AFCFFF /* FFTAccelerateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2814EEE14E8169300AFCFFF /* FFTAccelerateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2814EE514E8169300AFCFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2814EB314E8169300AFCFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2814EBB14E8169300AFCFFF;
+			remoteInfo = FFTAccelerate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2814EBC14E8169300AFCFFF /* FFTAccelerate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFTAccelerate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2814EC014E8169300AFCFFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2814EC214E8169300AFCFFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2814EC414E8169300AFCFFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2814EC814E8169300AFCFFF /* FFTAccelerate-Info.plist */ = {isa = PBXFileReference; path = "FFTAccelerate-Info.plist"; sourceTree = "<group>"; };
+		E2814ECA14E8169300AFCFFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2814ECC14E8169300AFCFFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2814ECE14E8169300AFCFFF /* FFTAccelerate-Prefix.pch */ = {isa = PBXFileReference; path = "FFTAccelerate-Prefix.pch"; sourceTree = "<group>"; };
+		E2814ECF14E8169300AFCFFF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2814ED014E8169300AFCFFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2814ED214E8169300AFCFFF /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E2814ED314E8169300AFCFFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2814ED614E8169300AFCFFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		E2814ED914E8169300AFCFFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		E2814EE014E8169300AFCFFF /* FFTAccelerateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFTAccelerateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2814EE114E8169300AFCFFF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E2814EE914E8169300AFCFFF /* FFTAccelerateTests-Info.plist */ = {isa = PBXFileReference; path = "FFTAccelerateTests-Info.plist"; sourceTree = "<group>"; };
+		E2814EEB14E8169300AFCFFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2814EED14E8169300AFCFFF /* FFTAccelerateTests.h */ = {isa = PBXFileReference; path = FFTAccelerateTests.h; sourceTree = "<group>"; };
+		E2814EEE14E8169300AFCFFF /* FFTAccelerateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFTAccelerateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2814EB914E8169300AFCFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2814EC114E8169300AFCFFF /* UIKit.framework in Frameworks */,
+				E2814EC314E8169300AFCFFF /* Foundation.framework in Frameworks */,
+				E2814EC514E8169300AFCFFF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2814EDC14E8169300AFCFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2814EE214E8169300AFCFFF /* SenTestingKit.framework in Frameworks */,
+				E2814EE314E8169300AFCFFF /* UIKit.framework in Frameworks */,
+				E2814EE414E8169300AFCFFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2814EB114E8169300AFCFFF = {
+			isa = PBXGroup;
+			children = (
+				E2814EC614E8169300AFCFFF /* FFTAccelerate */,
+				E2814EE714E8169300AFCFFF /* FFTAccelerateTests */,
+				E2814EBF14E8169300AFCFFF /* Frameworks */,
+				E2814EBD14E8169300AFCFFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2814EBD14E8169300AFCFFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2814EBC14E8169300AFCFFF /* FFTAccelerate.app */,
+				E2814EE014E8169300AFCFFF /* FFTAccelerateTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2814EBF14E8169300AFCFFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2814EC014E8169300AFCFFF /* UIKit.framework */,
+				E2814EC214E8169300AFCFFF /* Foundation.framework */,
+				E2814EC414E8169300AFCFFF /* CoreGraphics.framework */,
+				E2814EE114E8169300AFCFFF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2814EC614E8169300AFCFFF /* FFTAccelerate */ = {
+			isa = PBXGroup;
+			children = (
+				E2814ECF14E8169300AFCFFF /* AppDelegate.h */,
+				E2814ED014E8169300AFCFFF /* AppDelegate.m */,
+				E2814ED214E8169300AFCFFF /* ViewController.h */,
+				E2814ED314E8169300AFCFFF /* ViewController.m */,
+				E2814ED514E8169300AFCFFF /* ViewController_iPhone.xib */,
+				E2814ED814E8169300AFCFFF /* ViewController_iPad.xib */,
+				E2814EC714E8169300AFCFFF /* Supporting Files */,
+			);
+			path = FFTAccelerate;
+			sourceTree = "<group>";
+		};
+		E2814EC714E8169300AFCFFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2814EC814E8169300AFCFFF /* FFTAccelerate-Info.plist */,
+				E2814EC914E8169300AFCFFF /* InfoPlist.strings */,
+				E2814ECC14E8169300AFCFFF /* main.m */,
+				E2814ECE14E8169300AFCFFF /* FFTAccelerate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2814EE714E8169300AFCFFF /* FFTAccelerateTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2814EED14E8169300AFCFFF /* FFTAccelerateTests.h */,
+				E2814EEE14E8169300AFCFFF /* FFTAccelerateTests.m */,
+				E2814EE814E8169300AFCFFF /* Supporting Files */,
+			);
+			path = FFTAccelerateTests;
+			sourceTree = "<group>";
+		};
+		E2814EE814E8169300AFCFFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2814EE914E8169300AFCFFF /* FFTAccelerateTests-Info.plist */,
+				E2814EEA14E8169300AFCFFF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2814EBB14E8169300AFCFFF /* FFTAccelerate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2814EF214E8169300AFCFFF /* Build configuration list for PBXNativeTarget "FFTAccelerate" */;
+			buildPhases = (
+				E2814EB814E8169300AFCFFF /* Sources */,
+				E2814EB914E8169300AFCFFF /* Frameworks */,
+				E2814EBA14E8169300AFCFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFTAccelerate;
+			productName = FFTAccelerate;
+			productReference = E2814EBC14E8169300AFCFFF /* FFTAccelerate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2814EDF14E8169300AFCFFF /* FFTAccelerateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2814EF514E8169300AFCFFF /* Build configuration list for PBXNativeTarget "FFTAccelerateTests" */;
+			buildPhases = (
+				E2814EDB14E8169300AFCFFF /* Sources */,
+				E2814EDC14E8169300AFCFFF /* Frameworks */,
+				E2814EDD14E8169300AFCFFF /* Resources */,
+				E2814EDE14E8169300AFCFFF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2814EE614E8169300AFCFFF /* PBXTargetDependency */,
+			);
+			name = FFTAccelerateTests;
+			productName = FFTAccelerateTests;
+			productReference = E2814EE014E8169300AFCFFF /* FFTAccelerateTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2814EB314E8169300AFCFFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E2814EB614E8169300AFCFFF /* Build configuration list for PBXProject "FFTAccelerate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2814EB114E8169300AFCFFF;
+			productRefGroup = E2814EBD14E8169300AFCFFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2814EBB14E8169300AFCFFF /* FFTAccelerate */,
+				E2814EDF14E8169300AFCFFF /* FFTAccelerateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2814EBA14E8169300AFCFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2814ECB14E8169300AFCFFF /* InfoPlist.strings in Resources */,
+				E2814ED714E8169300AFCFFF /* ViewController_iPhone.xib in Resources */,
+				E2814EDA14E8169300AFCFFF /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2814EDD14E8169300AFCFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2814EEC14E8169300AFCFFF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2814EDE14E8169300AFCFFF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2814EB814E8169300AFCFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2814ECD14E8169300AFCFFF /* main.m in Sources */,
+				E2814ED114E8169300AFCFFF /* AppDelegate.m in Sources */,
+				E2814ED414E8169300AFCFFF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2814EDB14E8169300AFCFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2814EEF14E8169300AFCFFF /* FFTAccelerateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2814EE614E8169300AFCFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2814EBB14E8169300AFCFFF /* FFTAccelerate */;
+			targetProxy = E2814EE514E8169300AFCFFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2814EC914E8169300AFCFFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2814ECA14E8169300AFCFFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2814ED514E8169300AFCFFF /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2814ED614E8169300AFCFFF /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E2814ED814E8169300AFCFFF /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2814ED914E8169300AFCFFF /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		E2814EEA14E8169300AFCFFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2814EEB14E8169300AFCFFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2814EF014E8169300AFCFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2814EF114E8169300AFCFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2814EF314E8169300AFCFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFTAccelerate/FFTAccelerate-Prefix.pch";
+				INFOPLIST_FILE = "FFTAccelerate/FFTAccelerate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2814EF414E8169300AFCFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFTAccelerate/FFTAccelerate-Prefix.pch";
+				INFOPLIST_FILE = "FFTAccelerate/FFTAccelerate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E2814EF614E8169300AFCFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FFTAccelerate.app/FFTAccelerate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFTAccelerate/FFTAccelerate-Prefix.pch";
+				INFOPLIST_FILE = "FFTAccelerateTests/FFTAccelerateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E2814EF714E8169300AFCFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FFTAccelerate.app/FFTAccelerate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFTAccelerate/FFTAccelerate-Prefix.pch";
+				INFOPLIST_FILE = "FFTAccelerateTests/FFTAccelerateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2814EB614E8169300AFCFFF /* Build configuration list for PBXProject "FFTAccelerate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2814EF014E8169300AFCFFF /* Debug */,
+				E2814EF114E8169300AFCFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2814EF214E8169300AFCFFF /* Build configuration list for PBXNativeTarget "FFTAccelerate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2814EF314E8169300AFCFFF /* Debug */,
+				E2814EF414E8169300AFCFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2814EF514E8169300AFCFFF /* Build configuration list for PBXNativeTarget "FFTAccelerateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2814EF614E8169300AFCFFF /* Debug */,
+				E2814EF714E8169300AFCFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2814EB314E8169300AFCFFF /* Project object */;
+}
