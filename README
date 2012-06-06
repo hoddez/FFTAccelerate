@@ -1,6 +1,6 @@
 FFTAccelerate provides an easy way to setup and perform a Real FFT.
 
-An Example of using FFTAccelerate is provide in AppDelegate.
+An Example of using FFTAccelerate is provided in AppDelegate.
 
 All Output is in console.
 
