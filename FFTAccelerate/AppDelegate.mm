@@ -68,7 +68,7 @@
     for (int i=0; i<numSamples; i++) {
         NSLog(@"index: %d, amp: %.2f",i, frequency[i]);
     }
-    
+    delete(fftAccel);
     return YES;
 }
 

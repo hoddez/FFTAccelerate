@@ -53,5 +53,6 @@ FFTAccelerate::~FFTAccelerate ()
 {
 	free(A.realp);
 	free(A.imagp);
+    vDSP_destroy_fftsetup(fftSetup);
 }
 
