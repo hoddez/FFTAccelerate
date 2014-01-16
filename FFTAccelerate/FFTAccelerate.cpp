@@ -16,7 +16,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <Accelerate/Accelerate.h>
-#include <vector.h>
 #include <math.h>
 
 void FFTAccelerate::doFFTReal(float samples[], float amp[], int numSamples)
