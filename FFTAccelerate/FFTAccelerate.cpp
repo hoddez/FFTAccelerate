@@ -31,9 +31,13 @@ void FFTAccelerate::doFFTReal(float samples[], float amp[], int numSamples)
 	vDSP_fft_zrip(fftSetup, &A, 1, log2n, FFT_FORWARD);
     
     //Convert COMPLEX_SPLIT A result to float array to be returned
-    amp[0] = A.realp[0]/(numSamples*2);
-	for(i=1;i<numSamples;i++)
-		amp[i]=sqrt(A.realp[i]*A.realp[i]+A.imagp[i]*A.imagp[i])/numSamples;
+
+        vDSP_zvmags(&A, 1, amp, 1, numSamples); // get amplitude squared
+        vvsqrtf(amp, amp, &numSamples);         // get amplitude
+        amp[0] = amp[0]/2.;
+
+        float fNumSamples = numSamples;
+        vDSP_vsdiv(amp, 1, &fNumSamples, amp, 1, numSamples);   // /numSamples
 }
 
 //Constructor
