@@ -20,7 +20,6 @@
 
 void FFTAccelerate::doFFTReal(float samples[], float amp[], int numSamples)
 {
-	int i;
 	vDSP_Length log2n = log2f(numSamples);
 
     //Convert float array of reals samples to COMPLEX_SPLIT array A
@@ -32,12 +31,12 @@ void FFTAccelerate::doFFTReal(float samples[], float amp[], int numSamples)
     
     //Convert COMPLEX_SPLIT A result to float array to be returned
 
-        vDSP_zvmags(&A, 1, amp, 1, numSamples); // get amplitude squared
-        vvsqrtf(amp, amp, &numSamples);         // get amplitude
-        amp[0] = amp[0]/2.;
+    vDSP_zvmags(&A, 1, amp, 1, numSamples); // get amplitude squared
+    vvsqrtf(amp, amp, &numSamples);         // get amplitude
+    amp[0] = amp[0]/2.;
 
-        float fNumSamples = numSamples;
-        vDSP_vsdiv(amp, 1, &fNumSamples, amp, 1, numSamples);   // /numSamples
+    float fNumSamples = numSamples;
+    vDSP_vsdiv(amp, 1, &fNumSamples, amp, 1, numSamples);   // /numSamples
 }
 
 //Constructor
