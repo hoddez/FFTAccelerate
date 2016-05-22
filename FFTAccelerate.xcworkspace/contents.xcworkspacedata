@@ -7,4 +7,10 @@
    <FileRef
       location = "group:FFTAccelerateLib.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:FFTAccelerateOSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FFTAccelerateLibOSX.xcodeproj">
+   </FileRef>
 </Workspace>
