@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042600471CF255A900D4CE95 /* libFFTAccelerateLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 042600461CF255A900D4CE95 /* libFFTAccelerateLib.a */; };
 		E2814EC114E8169300AFCFFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC014E8169300AFCFFF /* UIKit.framework */; };
 		E2814EC314E8169300AFCFFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC214E8169300AFCFFF /* Foundation.framework */; };
 		E2814EC514E8169300AFCFFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC414E8169300AFCFFF /* CoreGraphics.framework */; };
@@ -21,7 +22,6 @@
 		E2814EE414E8169300AFCFFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC214E8169300AFCFFF /* Foundation.framework */; };
 		E2814EEC14E8169300AFCFFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2814EEA14E8169300AFCFFF /* InfoPlist.strings */; };
 		E2814EEF14E8169300AFCFFF /* FFTAccelerateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2814EEE14E8169300AFCFFF /* FFTAccelerateTests.m */; };
-		E2814EFA14E816C800AFCFFF /* FFTAccelerate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2814EF814E816C800AFCFFF /* FFTAccelerate.cpp */; };
 		E2814EFD14E816F200AFCFFF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EFC14E816F200AFCFFF /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042600461CF255A900D4CE95 /* libFFTAccelerateLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFFTAccelerateLib.a; path = "../../Library/Developer/Xcode/DerivedData/FFTAccelerate-eiyoyppcpzjvregbjokdidrebfqo/Build/Products/Debug-iphoneos/libFFTAccelerateLib.a"; sourceTree = "<group>"; };
 		E2814EBC14E8169300AFCFFF /* FFTAccelerate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFTAccelerate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2814EC014E8169300AFCFFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2814EC214E8169300AFCFFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,8 +57,6 @@
 		E2814EEB14E8169300AFCFFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2814EED14E8169300AFCFFF /* FFTAccelerateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFTAccelerateTests.h; sourceTree = "<group>"; };
 		E2814EEE14E8169300AFCFFF /* FFTAccelerateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFTAccelerateTests.m; sourceTree = "<group>"; };
-		E2814EF814E816C800AFCFFF /* FFTAccelerate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFTAccelerate.cpp; sourceTree = "<group>"; };
-		E2814EF914E816C800AFCFFF /* FFTAccelerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTAccelerate.h; sourceTree = "<group>"; };
 		E2814EFC14E816F200AFCFFF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -66,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042600471CF255A900D4CE95 /* libFFTAccelerateLib.a in Frameworks */,
 				E2814EFD14E816F200AFCFFF /* Accelerate.framework in Frameworks */,
 				E2814EC114E8169300AFCFFF /* UIKit.framework in Frameworks */,
 				E2814EC314E8169300AFCFFF /* Foundation.framework in Frameworks */,
@@ -90,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				E2814EFC14E816F200AFCFFF /* Accelerate.framework */,
+				042600461CF255A900D4CE95 /* libFFTAccelerateLib.a */,
 				E2814EC614E8169300AFCFFF /* FFTAccelerate */,
 				E2814EE714E8169300AFCFFF /* FFTAccelerateTests */,
 				E2814EBF14E8169300AFCFFF /* Frameworks */,
@@ -126,8 +127,6 @@
 				E2814ED314E8169300AFCFFF /* ViewController.m */,
 				E2814ED514E8169300AFCFFF /* ViewController_iPhone.xib */,
 				E2814ED814E8169300AFCFFF /* ViewController_iPad.xib */,
-				E2814EF814E816C800AFCFFF /* FFTAccelerate.cpp */,
-				E2814EF914E816C800AFCFFF /* FFTAccelerate.h */,
 				E2814EC714E8169300AFCFFF /* Supporting Files */,
 			);
 			path = FFTAccelerate;
@@ -274,7 +273,6 @@
 				E2814ECD14E8169300AFCFFF /* main.m in Sources */,
 				E2814ED114E8169300AFCFFF /* AppDelegate.mm in Sources */,
 				E2814ED414E8169300AFCFFF /* ViewController.m in Sources */,
-				E2814EFA14E816C800AFCFFF /* FFTAccelerate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
