@@ -200,7 +200,7 @@
 			name = FFTAccelerateTests;
 			productName = FFTAccelerateTests;
 			productReference = E2814EE014E8169300AFCFFF /* FFTAccelerateTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,6 +208,7 @@
 		E2814EB314E8169300AFCFFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0730;
 				LastUpgradeCheck = 0420;
 			};
 			buildConfigurationList = E2814EB614E8169300AFCFFF /* Build configuration list for PBXProject "FFTAccelerate" */;
