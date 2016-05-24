@@ -39,6 +39,18 @@ void FFTAccelerate::doFFTReal(float samples[], float amp[], int numSamples)
     vDSP_vsdiv(amp, 1, &fNumSamples, amp, 1, numSamples);   // /numSamples
 }
 
+int FFTAccelerate::fullestBin(float samples[], int numSamples, bool ignoreDC)
+{
+    int offset = 0;
+    vDSP_Length fullestIndex;
+    float fullestValue;
+    if (ignoreDC) {
+        offset = 1;
+    }
+    vDSP_maxvi(samples+offset, 1, &fullestValue, &fullestIndex, numSamples-offset);
+    return (int)fullestIndex+offset;
+}
+
 //Constructor
 FFTAccelerate::FFTAccelerate (int numSamples)
 {

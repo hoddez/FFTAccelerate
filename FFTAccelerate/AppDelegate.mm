@@ -68,6 +68,8 @@
     for (int i=0; i<numSamples; i++) {
         NSLog(@"index: %d, amp: %.2f",i, frequency[i]);
     }
+    NSLog(@"Fullest bin index: %d", fftAccel->fullestBin(frequency, numSamples, false));
+    NSLog(@"Fullest bin index (ignoring DC): %d", fftAccel->fullestBin(frequency, numSamples, true));
     delete(fftAccel);
     return YES;
 }

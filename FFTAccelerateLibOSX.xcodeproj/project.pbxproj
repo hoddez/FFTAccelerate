@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0426006E1CF25AC000D4CE95 /* FFTAccelerate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0426006C1CF25AC000D4CE95 /* FFTAccelerate.cpp */; };
+		0426006F1CF25AC000D4CE95 /* FFTAccelerate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0426006D1CF25AC000D4CE95 /* FFTAccelerate.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042600511CF259C900D4CE95 /* libFFTAccelerateOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFFTAccelerateOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0426006C1CF25AC000D4CE95 /* FFTAccelerate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FFTAccelerate.cpp; path = FFTAccelerateLib/../FFTAccelerate/FFTAccelerate.cpp; sourceTree = "<group>"; };
+		0426006D1CF25AC000D4CE95 /* FFTAccelerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFTAccelerate.h; path = FFTAccelerateLib/../FFTAccelerate/FFTAccelerate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0426004E1CF259C900D4CE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042600481CF259C900D4CE95 = {
+			isa = PBXGroup;
+			children = (
+				0426006B1CF25AAD00D4CE95 /* FFTAccelerateLib */,
+				042600521CF259C900D4CE95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042600521CF259C900D4CE95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042600511CF259C900D4CE95 /* libFFTAccelerateOSX.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0426006B1CF25AAD00D4CE95 /* FFTAccelerateLib */ = {
+			isa = PBXGroup;
+			children = (
+				0426006C1CF25AC000D4CE95 /* FFTAccelerate.cpp */,
+				0426006D1CF25AC000D4CE95 /* FFTAccelerate.h */,
+			);
+			name = FFTAccelerateLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0426004F1CF259C900D4CE95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0426006F1CF25AC000D4CE95 /* FFTAccelerate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		042600501CF259C900D4CE95 /* FFTAccelerateLibOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042600551CF259C900D4CE95 /* Build configuration list for PBXNativeTarget "FFTAccelerateLibOSX" */;
+			buildPhases = (
+				0426004D1CF259C900D4CE95 /* Sources */,
+				0426004E1CF259C900D4CE95 /* Frameworks */,
+				0426004F1CF259C900D4CE95 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFTAccelerateLibOSX;
+			productName = FFTAccelerateLibOSX;
+			productReference = 042600511CF259C900D4CE95 /* libFFTAccelerateOSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042600491CF259C900D4CE95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jack Jansen";
+				TargetAttributes = {
+					042600501CF259C900D4CE95 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0426004C1CF259C900D4CE95 /* Build configuration list for PBXProject "FFTAccelerateLibOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 042600481CF259C900D4CE95;
+			productRefGroup = 042600521CF259C900D4CE95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042600501CF259C900D4CE95 /* FFTAccelerateLibOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0426004D1CF259C900D4CE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0426006E1CF25AC000D4CE95 /* FFTAccelerate.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		042600531CF259C900D4CE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		042600541CF259C900D4CE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		042600561CF259C900D4CE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = FFTAccelerateOSX;
+			};
+			name = Debug;
+		};
+		042600571CF259C900D4CE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = FFTAccelerateOSX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0426004C1CF259C900D4CE95 /* Build configuration list for PBXProject "FFTAccelerateLibOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042600531CF259C900D4CE95 /* Debug */,
+				042600541CF259C900D4CE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042600551CF259C900D4CE95 /* Build configuration list for PBXNativeTarget "FFTAccelerateLibOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042600561CF259C900D4CE95 /* Debug */,
+				042600571CF259C900D4CE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042600491CF259C900D4CE95 /* Project object */;
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04604A201CF261C100DD1FEB /* libFFTAccelerate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04604A1B1CF2610D00DD1FEB /* libFFTAccelerate.a */; };
 		E2814EC114E8169300AFCFFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC014E8169300AFCFFF /* UIKit.framework */; };
 		E2814EC314E8169300AFCFFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC214E8169300AFCFFF /* Foundation.framework */; };
 		E2814EC514E8169300AFCFFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC414E8169300AFCFFF /* CoreGraphics.framework */; };
@@ -21,11 +22,24 @@
 		E2814EE414E8169300AFCFFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EC214E8169300AFCFFF /* Foundation.framework */; };
 		E2814EEC14E8169300AFCFFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2814EEA14E8169300AFCFFF /* InfoPlist.strings */; };
 		E2814EEF14E8169300AFCFFF /* FFTAccelerateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2814EEE14E8169300AFCFFF /* FFTAccelerateTests.m */; };
-		E2814EFA14E816C800AFCFFF /* FFTAccelerate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2814EF814E816C800AFCFFF /* FFTAccelerate.cpp */; };
 		E2814EFD14E816F200AFCFFF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2814EFC14E816F200AFCFFF /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		04604A1A1CF2610D00DD1FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04604A161CF2610C00DD1FEB /* FFTAccelerateLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 042600291CF253C000D4CE95;
+			remoteInfo = FFTAccelerateLib;
+		};
+		04604A1E1CF2618800DD1FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04604A161CF2610C00DD1FEB /* FFTAccelerateLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 042600281CF253C000D4CE95;
+			remoteInfo = FFTAccelerateLib;
+		};
 		E2814EE514E8169300AFCFFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E2814EB314E8169300AFCFFF /* Project object */;
@@ -36,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04604A081CF25FF500DD1FEB /* libFFTAccelerate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFFTAccelerate.a; path = "../../Library/Developer/Xcode/DerivedData/FFTAccelerate-eiyoyppcpzjvregbjokdidrebfqo/Build/Products/Debug-iphoneos/libFFTAccelerate.a"; sourceTree = "<group>"; };
+		04604A161CF2610C00DD1FEB /* FFTAccelerateLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FFTAccelerateLib.xcodeproj; sourceTree = "<group>"; };
 		E2814EBC14E8169300AFCFFF /* FFTAccelerate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFTAccelerate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2814EC014E8169300AFCFFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2814EC214E8169300AFCFFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,8 +72,6 @@
 		E2814EEB14E8169300AFCFFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2814EED14E8169300AFCFFF /* FFTAccelerateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFTAccelerateTests.h; sourceTree = "<group>"; };
 		E2814EEE14E8169300AFCFFF /* FFTAccelerateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFTAccelerateTests.m; sourceTree = "<group>"; };
-		E2814EF814E816C800AFCFFF /* FFTAccelerate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FFTAccelerate.cpp; sourceTree = "<group>"; };
-		E2814EF914E816C800AFCFFF /* FFTAccelerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTAccelerate.h; sourceTree = "<group>"; };
 		E2814EFC14E816F200AFCFFF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04604A201CF261C100DD1FEB /* libFFTAccelerate.a in Frameworks */,
 				E2814EFD14E816F200AFCFFF /* Accelerate.framework in Frameworks */,
 				E2814EC114E8169300AFCFFF /* UIKit.framework in Frameworks */,
 				E2814EC314E8169300AFCFFF /* Foundation.framework in Frameworks */,
@@ -86,9 +101,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04604A171CF2610C00DD1FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04604A1B1CF2610D00DD1FEB /* libFFTAccelerate.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E2814EB114E8169300AFCFFF = {
 			isa = PBXGroup;
 			children = (
+				04604A161CF2610C00DD1FEB /* FFTAccelerateLib.xcodeproj */,
 				E2814EFC14E816F200AFCFFF /* Accelerate.framework */,
 				E2814EC614E8169300AFCFFF /* FFTAccelerate */,
 				E2814EE714E8169300AFCFFF /* FFTAccelerateTests */,
@@ -109,6 +133,7 @@
 		E2814EBF14E8169300AFCFFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04604A081CF25FF500DD1FEB /* libFFTAccelerate.a */,
 				E2814EC014E8169300AFCFFF /* UIKit.framework */,
 				E2814EC214E8169300AFCFFF /* Foundation.framework */,
 				E2814EC414E8169300AFCFFF /* CoreGraphics.framework */,
@@ -126,8 +151,6 @@
 				E2814ED314E8169300AFCFFF /* ViewController.m */,
 				E2814ED514E8169300AFCFFF /* ViewController_iPhone.xib */,
 				E2814ED814E8169300AFCFFF /* ViewController_iPad.xib */,
-				E2814EF814E816C800AFCFFF /* FFTAccelerate.cpp */,
-				E2814EF914E816C800AFCFFF /* FFTAccelerate.h */,
 				E2814EC714E8169300AFCFFF /* Supporting Files */,
 			);
 			path = FFTAccelerate;
@@ -177,6 +200,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				04604A1F1CF2618800DD1FEB /* PBXTargetDependency */,
 			);
 			name = FFTAccelerate;
 			productName = FFTAccelerate;
@@ -200,7 +224,7 @@
 			name = FFTAccelerateTests;
 			productName = FFTAccelerateTests;
 			productReference = E2814EE014E8169300AFCFFF /* FFTAccelerateTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,6 +232,7 @@
 		E2814EB314E8169300AFCFFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0730;
 				LastUpgradeCheck = 0420;
 			};
 			buildConfigurationList = E2814EB614E8169300AFCFFF /* Build configuration list for PBXProject "FFTAccelerate" */;
@@ -220,6 +245,12 @@
 			mainGroup = E2814EB114E8169300AFCFFF;
 			productRefGroup = E2814EBD14E8169300AFCFFF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04604A171CF2610C00DD1FEB /* Products */;
+					ProjectRef = 04604A161CF2610C00DD1FEB /* FFTAccelerateLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E2814EBB14E8169300AFCFFF /* FFTAccelerate */,
@@ -227,6 +258,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04604A1B1CF2610D00DD1FEB /* libFFTAccelerate.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFFTAccelerate.a;
+			remoteRef = 04604A1A1CF2610D00DD1FEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E2814EBA14E8169300AFCFFF /* Resources */ = {
@@ -273,7 +314,6 @@
 				E2814ECD14E8169300AFCFFF /* main.m in Sources */,
 				E2814ED114E8169300AFCFFF /* AppDelegate.mm in Sources */,
 				E2814ED414E8169300AFCFFF /* ViewController.m in Sources */,
-				E2814EFA14E816C800AFCFFF /* FFTAccelerate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +328,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		04604A1F1CF2618800DD1FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFTAccelerateLib;
+			targetProxy = 04604A1E1CF2618800DD1FEB /* PBXContainerItemProxy */;
+		};
 		E2814EE614E8169300AFCFFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E2814EBB14E8169300AFCFFF /* FFTAccelerate */;

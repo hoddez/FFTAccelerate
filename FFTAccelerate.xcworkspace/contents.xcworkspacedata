@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:FFTAccelerate.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FFTAccelerateLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FFTAccelerateOSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FFTAccelerateLibOSX.xcodeproj">
+   </FileRef>
+</Workspace>
