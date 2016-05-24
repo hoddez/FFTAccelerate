@@ -22,6 +22,7 @@ class FFTAccelerate
 		FFTAccelerate(int numSamples);
 		~FFTAccelerate();
     void doFFTReal(float samples[], float amp[], int numSamples);
+    int fullestBin(float samples[], int numSamples, bool ignoreDC);
 
 private: 
 		FFTSetup fftSetup;

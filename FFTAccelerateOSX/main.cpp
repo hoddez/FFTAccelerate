@@ -47,6 +47,7 @@ int main(int argc, const char * argv[]) {
     for (int i=0; i<numSamples; i++) {
         std::cout << "index: " << i << " amplitude: " << frequency[i] << "\n";
     }
+    std::cout << "Fullest bin: " << fftAccel->fullestBin(frequency, numSamples, false) << ", fullest ignoring DC: " << fftAccel->fullestBin(frequency, numSamples, true) << "\n";
     delete(fftAccel);
     return 0;
 }
